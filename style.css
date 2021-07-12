@@ -32,9 +32,11 @@ h6 {
   font-size: 13px;
 }
 
-p {
+#summary {
   font-size: 25px;
   font-style: oblique;
+  font-weight: bold;
+  margin-bottom: 60px;
 }
 img {
   float: right;
@@ -45,4 +47,8 @@ img {
 #content {
   max-width: 850px;
   margin: 20px auto 50px;
+}
+
+#info {
+  font-size: 20px;
 }
