@@ -39,9 +39,20 @@ h6 {
   margin-bottom: 30px;
 }
 img {
-  float: right;
-  margin-top: 50px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#img-container {
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin-top: 8%;
   margin-right: 10px;
+  box-shadow: 2px 4px 8px black;
+  float: right;
 }
 
 #content {
